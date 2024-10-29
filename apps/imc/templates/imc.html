@@ -5,14 +5,16 @@
     <h1>Calculadora de IMC</h1>
 
     <div class='controls'>
-        <input type='text' name='peso' id='peso' placeholder='Peso: 0.00kg'/>
+        <input type='number' name='peso' id='peso' placeholder='Peso: 0.00kg'/>
 
-        <input type='text' name='altura' id='altura' placeholder='Altura: 0.00m'/>
+        <input type='number' name='altura' id='altura' placeholder='Altura: 0.00m'/>
 
-        <button>Calcular</button>
+        <button onclick="calcular_imc()">Calcular</button>
+
+        <div id="resultado"></div>
     <div>
 {% endblock content %}
 
 {% block scripts %}
-    
+    <script src="{% static 'js/imc.js' %}"></script>
 {% endblock scripts %}

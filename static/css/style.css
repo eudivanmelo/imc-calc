@@ -19,29 +19,29 @@ main {
     background-color: #1f1f1f;
     border: 1px solid #2f2f2f;
     border-radius: 16px;
-}
 
-h1 {
-    margin: 0;
-    text-align: center;
-};
-
-p {
-    text-align: center;
-};
-
-a {
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    background-color: #a100f1;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-}
-
-a:hover {
-    background-color: #a900f9;
+    h1 {
+        margin: 0;
+        text-align: center;
+    };
+    
+    p {
+        text-align: center;
+    };
+    
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #a100f1;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    
+    a:hover {
+        background-color: #a900f9;
+    }
 }
 
 .controls {
@@ -60,4 +60,63 @@ input {
     margin-bottom: 10px;
     text-align: center;
 }
+
+button {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #a100f1;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+button:hover {
+    background-color: #a900f9;
+}
+
+#resultado {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+
+    p{
+        padding: 10px;
+        margin: 0;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    p.t-0 {
+        background-color: yellow;
+    }
+
+    p.t-1 {
+        background-color: green;
+    }
+
+    p.t-2 {
+        background-color: orange;
+    }
+
+    p.t-3 {
+        background-color: orangered;
+    }
+
+    p.t-4 {
+        background-color: red;
+        color: white;
+    }
+
+    p.t-5 {
+        background-color: darkred;
+        color: white;
+    }
+}
+
+
 
